@@ -26,9 +26,11 @@
         android:layout_marginBottom="10dp"
         android:textStyle="bold"
         android:textSize="25sp"
+        android:textColor="#000"
         />
 
     <Button
+        android:onClick="java"
         android:id="@+id/Java"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
@@ -39,6 +41,7 @@
         />
 
     <Button
+        android:onClick="Python"
         android:id="@+id/Python"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
@@ -49,6 +52,7 @@
         />
 
     <Button
+        android:onClick="HTML"
         android:id="@+id/HTML"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
@@ -59,6 +63,7 @@
         />
 
     <Button
+        android:onClick="JavaScript"
         android:id="@+id/JavaScript"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
@@ -68,5 +73,48 @@
         android:layout_marginTop="10dp"
         />
 
+    <Button
+        android:onClick="CSS"
+        android:id="@+id/CSS"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/css"
+        android:layout_below="@+id/JavaScript"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:onClick="Salesforce"
+        android:id="@+id/Salesforce"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/salesforce"
+        android:layout_below="@+id/CSS"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:onClick="Testing"
+        android:id="@+id/Testing"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/testing"
+        android:layout_below="@+id/Salesforce"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:onClick="AboutUs"
+        android:id="@+id/Aboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Testing"
+        android:text="About Us"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        />
 
 </RelativeLayout>

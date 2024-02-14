@@ -5,4 +5,11 @@
     <string name="java">Java</string>
     <string name="html">HTML</string>
     <string name="java_script">Java Script</string>
+    <string name="css">CSS</string>
+    <string name="salesforce">Salesforce</string>
+    <string name="testing">Testing</string>
+    <string name="JavaContent">To progress from zero to advanced proficiency in Java, start with grasping fundamental concepts such as syntax, data types, and control structures, then delve into object-oriented programming principles, exception handling, and basic algorithms. Transition to intermediate levels by mastering generics, collections, multithreading, and file handling, and deepen your understanding with JDBC for database connectivity and unit testing. At the advanced stage, explore advanced language features, design patterns, and dive into frameworks like Spring and Hibernate for web and enterprise development. Additionally, gain expertise in microservices architecture with Spring Boot, while continuously practicing coding, contributing to projects, and staying updated with industry trends through books, courses, and online communities. Through consistent learning and practical application, you\'ll gradually ascend to proficiency in Java, ready to tackle complex projects and challenges with confidence.</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="about_us">About Us</string>
+    <string name="AboutUsText">Learning App is your go-to platform for personalized and interactive learning experiences. With a diverse course catalog spanning various subjects and levels, we empower learners of all ages to achieve their educational goals. Our team of experts is dedicated to delivering high-quality content, adaptive learning paths, and flexible access, making learning enjoyable and accessible anytime, anywhere.</string>
 </resources>
