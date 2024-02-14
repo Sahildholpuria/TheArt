@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">The Art</string>
+    <string name="todo">TODO</string>
+    <string name="topics">Topics</string>
+    <string name="java">Java</string>
+    <string name="html">HTML</string>
+    <string name="java_script">Java Script</string>
+</resources>
