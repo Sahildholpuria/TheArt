@@ -12,4 +12,8 @@
     <string name="privacy_policy">Privacy Policy</string>
     <string name="about_us">About Us</string>
     <string name="AboutUsText">Learning App is your go-to platform for personalized and interactive learning experiences. With a diverse course catalog spanning various subjects and levels, we empower learners of all ages to achieve their educational goals. Our team of experts is dedicated to delivering high-quality content, adaptive learning paths, and flexible access, making learning enjoyable and accessible anytime, anywhere.</string>
+    <string name="python">Python</string>
+    <string name="javascript">JavaScript</string>
+    <string name="software_testing">Software Testing</string>
+    <string name="salesforce_crm">Salesforce CRM</string>
 </resources>

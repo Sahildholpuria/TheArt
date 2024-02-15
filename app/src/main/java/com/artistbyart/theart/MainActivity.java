@@ -27,40 +27,46 @@ public class MainActivity extends AppCompatActivity {
 
     public void Python(View view) {
         Toast.makeText(this, "Python", Toast.LENGTH_LONG).show();
-        Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.concretepage.com"));
-        startActivity(implicit);
+        Intent Python = new Intent(MainActivity.this,Python.class);
+        startActivity(Python);
+
     }
 
     public void HTML(View view) {
         Toast.makeText(this, "HTML", Toast.LENGTH_LONG).show();
-        Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.concretepage.com"));
-        startActivity(implicit);
+
+        Intent Html = new Intent(MainActivity.this,HTML.class);
+        startActivity(Html);
+
     }
 
     public void JavaScript(View view) {
         Toast.makeText(this, "JavaScript", Toast.LENGTH_LONG).show();
-        Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.concretepage.com"));
-        startActivity(implicit);
+
+        Intent JavaScript = new Intent(MainActivity.this,Java.class);
+        startActivity(JavaScript);
+
     }
 
     public void CSS(View view) {
         Toast.makeText(this, "CSS", Toast.LENGTH_LONG).show();
-        Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.concretepage.com"));
-        startActivity(implicit);
+        Intent CSS = new Intent(MainActivity.this,CSS.class);
+        startActivity(CSS);
     }
 
     public void Salesforce(View view) {
         Toast.makeText(this, "Salesforce", Toast.LENGTH_LONG).show();
-        Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.concretepage.com"));
-        startActivity(implicit);
+
+        Intent Salesforce = new Intent(MainActivity.this,Salesforce.class);
+        startActivity(Salesforce);
+
     }
 
     public void Testing(View view) {
         Toast.makeText(this, "Testing", Toast.LENGTH_LONG).show();
 
-        Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.concretepage.com"));
-        startActivity(implicit);
-
+        Intent Testing = new Intent(MainActivity.this,Testing.class);
+        startActivity(Testing);
 
     }
 
